@@ -16,4 +16,4 @@ yarn start
 
 # Deploy
 
-automatically on merge to master
+automatically on merge to main https://core-three-nu.vercel.app/
