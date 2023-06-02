@@ -6,24 +6,38 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "prettier ./src --write --cache --loglevel silent && tsc && eslint './src/**/*.[jt]s?(x)' --cache --fix && next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.14",
-    "@types/node": "^20.2.5",
-    "@types/react": "^18.2.7",
-    "@types/react-dom": "^18.2.4",
-    "aos": "^3.0.0-beta.6",
-    "next": "^13.4.4",
+    "@headlessui/react": "1.7.15",
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.8",
+    "@types/react-dom": "18.2.4",
+    "aos": "3.0.0-beta.6",
+    "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "^5.0.4"
+    "typescript": "*"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.3",
-    "@types/aos": "^3.0.4",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.24",
-    "tailwindcss": "^3.3.2"
+    "@tailwindcss/forms": "0.5.3",
+    "@types/aos": "3.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
+    "autoprefixer": "10.4.14",
+    "eslint": "^8.41.0",
+    "eslint-config-next": "13.4.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-typescript-sort-keys": "^2.3.0",
+    "postcss": "8.4.24",
+    "prettier": "^2.8.8",
+    "tailwindcss": "3.3.2"
   }
 }
