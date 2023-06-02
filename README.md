@@ -1,6 +1,6 @@
 # NextJS Template
 
-from https://github.com/cruip/tailwind-landing-page-template
+fork from https://github.com/cruip/tailwind-landing-page-template
 
 # Develop
 
