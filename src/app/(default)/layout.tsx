@@ -1,8 +1,8 @@
 'use client';
-import React, { PropsWithChildren, useEffect } from 'react';
+import Footer from '@/components/ui/footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Footer from '@/components/ui/footer';
+import { PropsWithChildren, useEffect } from 'react';
 
 export default function DefaultLayout({ children }: PropsWithChildren) {
   useEffect(() => {

@@ -1,8 +1,8 @@
 'use client';
 
-import React, { useState, useRef, useEffect } from 'react';
 import { Transition } from '@headlessui/react';
 import Link from 'next/link';
+import { useEffect, useRef, useState } from 'react';
 
 export default function MobileMenu() {
   const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false);

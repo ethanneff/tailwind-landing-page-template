@@ -1,7 +1,7 @@
-import './css/style.css';
-import { Inter } from 'next/font/google';
 import Header from '@/components/ui/header';
+import { Inter } from 'next/font/google';
 import { PropsWithChildren } from 'react';
+import './css/style.css';
 
 const inter = Inter({
   subsets: ['latin'],
